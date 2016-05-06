@@ -25,6 +25,7 @@ public class AddActivity extends AppCompatActivity {
 
         mHelper = new MyDbHelper(this);
         mDb = mHelper.getWritableDatabase();
+        //"INSERT INTO Name (name) VALUES(XXX)"
       ;
 
         Button b = (Button) findViewById(R.id.saveButton);
